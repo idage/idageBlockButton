@@ -15,6 +15,7 @@
 		7CA55E171CEF29FC008A76EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA55E151CEF29FC008A76EE /* LaunchScreen.storyboard */; };
 		7CA55E221CEF29FC008A76EE /* idageBlockButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA55E211CEF29FC008A76EE /* idageBlockButtonTests.m */; };
 		7CA55E2D1CEF29FD008A76EE /* idageBlockButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA55E2C1CEF29FD008A76EE /* idageBlockButtonUITests.m */; };
+		7CA55E3C1CEF2CAE008A76EE /* BlockButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA55E3B1CEF2CAE008A76EE /* BlockButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7CA55E281CEF29FC008A76EE /* idageBlockButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = idageBlockButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CA55E2C1CEF29FD008A76EE /* idageBlockButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = idageBlockButtonUITests.m; sourceTree = "<group>"; };
 		7CA55E2E1CEF29FD008A76EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CA55E3A1CEF2CAE008A76EE /* BlockButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockButton.h; sourceTree = "<group>"; };
+		7CA55E3B1CEF2CAE008A76EE /* BlockButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		7CA55E061CEF29FC008A76EE /* idageBlockButton */ = {
 			isa = PBXGroup;
 			children = (
+				7CA55E3A1CEF2CAE008A76EE /* BlockButton.h */,
+				7CA55E3B1CEF2CAE008A76EE /* BlockButton.m */,
 				7CA55E0A1CEF29FC008A76EE /* AppDelegate.h */,
 				7CA55E0B1CEF29FC008A76EE /* AppDelegate.m */,
 				7CA55E0D1CEF29FC008A76EE /* ViewController.h */,
@@ -273,6 +278,7 @@
 				7CA55E0F1CEF29FC008A76EE /* ViewController.m in Sources */,
 				7CA55E0C1CEF29FC008A76EE /* AppDelegate.m in Sources */,
 				7CA55E091CEF29FC008A76EE /* main.m in Sources */,
+				7CA55E3C1CEF2CAE008A76EE /* BlockButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +502,7 @@
 				7CA55E331CEF29FD008A76EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CA55E341CEF29FD008A76EE /* Build configuration list for PBXNativeTarget "idageBlockButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				7CA55E361CEF29FD008A76EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CA55E371CEF29FD008A76EE /* Build configuration list for PBXNativeTarget "idageBlockButtonUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				7CA55E391CEF29FD008A76EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
