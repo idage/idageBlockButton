@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CA55E091CEF29FC008A76EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA55E081CEF29FC008A76EE /* main.m */; };
+		7CA55E0C1CEF29FC008A76EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA55E0B1CEF29FC008A76EE /* AppDelegate.m */; };
+		7CA55E0F1CEF29FC008A76EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA55E0E1CEF29FC008A76EE /* ViewController.m */; };
+		7CA55E121CEF29FC008A76EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA55E101CEF29FC008A76EE /* Main.storyboard */; };
+		7CA55E141CEF29FC008A76EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CA55E131CEF29FC008A76EE /* Assets.xcassets */; };
+		7CA55E171CEF29FC008A76EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA55E151CEF29FC008A76EE /* LaunchScreen.storyboard */; };
+		7CA55E221CEF29FC008A76EE /* idageBlockButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA55E211CEF29FC008A76EE /* idageBlockButtonTests.m */; };
+		7CA55E2D1CEF29FD008A76EE /* idageBlockButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA55E2C1CEF29FD008A76EE /* idageBlockButtonUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CA55E1E1CEF29FC008A76EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CA55DFC1CEF29FC008A76EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CA55E031CEF29FC008A76EE;
+			remoteInfo = idageBlockButton;
+		};
+		7CA55E291CEF29FD008A76EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CA55DFC1CEF29FC008A76EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CA55E031CEF29FC008A76EE;
+			remoteInfo = idageBlockButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7CA55E041CEF29FC008A76EE /* idageBlockButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = idageBlockButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CA55E081CEF29FC008A76EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CA55E0A1CEF29FC008A76EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7CA55E0B1CEF29FC008A76EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7CA55E0D1CEF29FC008A76EE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7CA55E0E1CEF29FC008A76EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7CA55E111CEF29FC008A76EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CA55E131CEF29FC008A76EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CA55E161CEF29FC008A76EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CA55E181CEF29FC008A76EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CA55E1D1CEF29FC008A76EE /* idageBlockButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = idageBlockButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CA55E211CEF29FC008A76EE /* idageBlockButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = idageBlockButtonTests.m; sourceTree = "<group>"; };
+		7CA55E231CEF29FC008A76EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CA55E281CEF29FC008A76EE /* idageBlockButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = idageBlockButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CA55E2C1CEF29FD008A76EE /* idageBlockButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = idageBlockButtonUITests.m; sourceTree = "<group>"; };
+		7CA55E2E1CEF29FD008A76EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CA55E011CEF29FC008A76EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA55E1A1CEF29FC008A76EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA55E251CEF29FC008A76EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CA55DFB1CEF29FC008A76EE = {
+			isa = PBXGroup;
+			children = (
+				7CA55E061CEF29FC008A76EE /* idageBlockButton */,
+				7CA55E201CEF29FC008A76EE /* idageBlockButtonTests */,
+				7CA55E2B1CEF29FD008A76EE /* idageBlockButtonUITests */,
+				7CA55E051CEF29FC008A76EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CA55E051CEF29FC008A76EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CA55E041CEF29FC008A76EE /* idageBlockButton.app */,
+				7CA55E1D1CEF29FC008A76EE /* idageBlockButtonTests.xctest */,
+				7CA55E281CEF29FC008A76EE /* idageBlockButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CA55E061CEF29FC008A76EE /* idageBlockButton */ = {
+			isa = PBXGroup;
+			children = (
+				7CA55E0A1CEF29FC008A76EE /* AppDelegate.h */,
+				7CA55E0B1CEF29FC008A76EE /* AppDelegate.m */,
+				7CA55E0D1CEF29FC008A76EE /* ViewController.h */,
+				7CA55E0E1CEF29FC008A76EE /* ViewController.m */,
+				7CA55E101CEF29FC008A76EE /* Main.storyboard */,
+				7CA55E131CEF29FC008A76EE /* Assets.xcassets */,
+				7CA55E151CEF29FC008A76EE /* LaunchScreen.storyboard */,
+				7CA55E181CEF29FC008A76EE /* Info.plist */,
+				7CA55E071CEF29FC008A76EE /* Supporting Files */,
+			);
+			path = idageBlockButton;
+			sourceTree = "<group>";
+		};
+		7CA55E071CEF29FC008A76EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CA55E081CEF29FC008A76EE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CA55E201CEF29FC008A76EE /* idageBlockButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CA55E211CEF29FC008A76EE /* idageBlockButtonTests.m */,
+				7CA55E231CEF29FC008A76EE /* Info.plist */,
+			);
+			path = idageBlockButtonTests;
+			sourceTree = "<group>";
+		};
+		7CA55E2B1CEF29FD008A76EE /* idageBlockButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CA55E2C1CEF29FD008A76EE /* idageBlockButtonUITests.m */,
+				7CA55E2E1CEF29FD008A76EE /* Info.plist */,
+			);
+			path = idageBlockButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CA55E031CEF29FC008A76EE /* idageBlockButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CA55E311CEF29FD008A76EE /* Build configuration list for PBXNativeTarget "idageBlockButton" */;
+			buildPhases = (
+				7CA55E001CEF29FC008A76EE /* Sources */,
+				7CA55E011CEF29FC008A76EE /* Frameworks */,
+				7CA55E021CEF29FC008A76EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = idageBlockButton;
+			productName = idageBlockButton;
+			productReference = 7CA55E041CEF29FC008A76EE /* idageBlockButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CA55E1C1CEF29FC008A76EE /* idageBlockButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CA55E341CEF29FD008A76EE /* Build configuration list for PBXNativeTarget "idageBlockButtonTests" */;
+			buildPhases = (
+				7CA55E191CEF29FC008A76EE /* Sources */,
+				7CA55E1A1CEF29FC008A76EE /* Frameworks */,
+				7CA55E1B1CEF29FC008A76EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CA55E1F1CEF29FC008A76EE /* PBXTargetDependency */,
+			);
+			name = idageBlockButtonTests;
+			productName = idageBlockButtonTests;
+			productReference = 7CA55E1D1CEF29FC008A76EE /* idageBlockButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CA55E271CEF29FC008A76EE /* idageBlockButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CA55E371CEF29FD008A76EE /* Build configuration list for PBXNativeTarget "idageBlockButtonUITests" */;
+			buildPhases = (
+				7CA55E241CEF29FC008A76EE /* Sources */,
+				7CA55E251CEF29FC008A76EE /* Frameworks */,
+				7CA55E261CEF29FC008A76EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CA55E2A1CEF29FD008A76EE /* PBXTargetDependency */,
+			);
+			name = idageBlockButtonUITests;
+			productName = idageBlockButtonUITests;
+			productReference = 7CA55E281CEF29FC008A76EE /* idageBlockButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CA55DFC1CEF29FC008A76EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = idage;
+				TargetAttributes = {
+					7CA55E031CEF29FC008A76EE = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					7CA55E1C1CEF29FC008A76EE = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 7CA55E031CEF29FC008A76EE;
+					};
+					7CA55E271CEF29FC008A76EE = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 7CA55E031CEF29FC008A76EE;
+					};
+				};
+			};
+			buildConfigurationList = 7CA55DFF1CEF29FC008A76EE /* Build configuration list for PBXProject "idageBlockButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CA55DFB1CEF29FC008A76EE;
+			productRefGroup = 7CA55E051CEF29FC008A76EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CA55E031CEF29FC008A76EE /* idageBlockButton */,
+				7CA55E1C1CEF29FC008A76EE /* idageBlockButtonTests */,
+				7CA55E271CEF29FC008A76EE /* idageBlockButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CA55E021CEF29FC008A76EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA55E171CEF29FC008A76EE /* LaunchScreen.storyboard in Resources */,
+				7CA55E141CEF29FC008A76EE /* Assets.xcassets in Resources */,
+				7CA55E121CEF29FC008A76EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA55E1B1CEF29FC008A76EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA55E261CEF29FC008A76EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CA55E001CEF29FC008A76EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA55E0F1CEF29FC008A76EE /* ViewController.m in Sources */,
+				7CA55E0C1CEF29FC008A76EE /* AppDelegate.m in Sources */,
+				7CA55E091CEF29FC008A76EE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA55E191CEF29FC008A76EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA55E221CEF29FC008A76EE /* idageBlockButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA55E241CEF29FC008A76EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA55E2D1CEF29FD008A76EE /* idageBlockButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CA55E1F1CEF29FC008A76EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CA55E031CEF29FC008A76EE /* idageBlockButton */;
+			targetProxy = 7CA55E1E1CEF29FC008A76EE /* PBXContainerItemProxy */;
+		};
+		7CA55E2A1CEF29FD008A76EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CA55E031CEF29FC008A76EE /* idageBlockButton */;
+			targetProxy = 7CA55E291CEF29FD008A76EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CA55E101CEF29FC008A76EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CA55E111CEF29FC008A76EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CA55E151CEF29FC008A76EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CA55E161CEF29FC008A76EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CA55E2F1CEF29FD008A76EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7CA55E301CEF29FD008A76EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CA55E321CEF29FD008A76EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = idageBlockButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.irabbit.idageBlockButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7CA55E331CEF29FD008A76EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = idageBlockButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.irabbit.idageBlockButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7CA55E351CEF29FD008A76EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = idageBlockButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.irabbit.idageBlockButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/idageBlockButton.app/idageBlockButton";
+			};
+			name = Debug;
+		};
+		7CA55E361CEF29FD008A76EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = idageBlockButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.irabbit.idageBlockButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/idageBlockButton.app/idageBlockButton";
+			};
+			name = Release;
+		};
+		7CA55E381CEF29FD008A76EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = idageBlockButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.irabbit.idageBlockButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = idageBlockButton;
+			};
+			name = Debug;
+		};
+		7CA55E391CEF29FD008A76EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = idageBlockButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.irabbit.idageBlockButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = idageBlockButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CA55DFF1CEF29FC008A76EE /* Build configuration list for PBXProject "idageBlockButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CA55E2F1CEF29FD008A76EE /* Debug */,
+				7CA55E301CEF29FD008A76EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CA55E311CEF29FD008A76EE /* Build configuration list for PBXNativeTarget "idageBlockButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CA55E321CEF29FD008A76EE /* Debug */,
+				7CA55E331CEF29FD008A76EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CA55E341CEF29FD008A76EE /* Build configuration list for PBXNativeTarget "idageBlockButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CA55E351CEF29FD008A76EE /* Debug */,
+				7CA55E361CEF29FD008A76EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CA55E371CEF29FD008A76EE /* Build configuration list for PBXNativeTarget "idageBlockButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CA55E381CEF29FD008A76EE /* Debug */,
+				7CA55E391CEF29FD008A76EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CA55DFC1CEF29FC008A76EE /* Project object */;
+}
